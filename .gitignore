@@ -1,0 +1,24 @@
+# Ignore Google Cloud credentials
+01-docker-terraform/1_TERRAFORM_GCP/keys/my-creds.json
+02-workflow-orchestration/flows/04_gcp_kv.yaml
+
+# Ignore all JSON keys (optional, but useful)
+*.json
+
+# Ignore Terraform state files (optional)
+*.tfstate
+*.tfstate.backup
+
+# Ignore Python virtual environments (if applicable)
+venv/
+__pycache__/
+*.pyc
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# Ignore environment variable files
+.env
+.envrc

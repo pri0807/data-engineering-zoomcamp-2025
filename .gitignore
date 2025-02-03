@@ -1,8 +1,0 @@
-# Terraform state files
-*.tfstate
-*.tfstate.backup
-.terraform/
-
-# Credentials (adjust based on your setup)
-*.json
-*.pem
